@@ -1,0 +1,149 @@
+h1{
+    background-color: rgba(0, 0, 0, 0.808);
+   padding: 20px;
+    color: burlywood;
+    
+}
+#book{
+    background-color: rgba(0, 0, 0, 0.808);;
+    color: burlywood;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
+body{
+    background-image: url("logo.png");
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position-x: right;
+    background-color:rgba(222, 184, 135, 0.308);}
+select{
+    background-color: rgba(222, 184, 135, 0.178);
+    padding: 8px;
+    border: solid black 2px;
+    border-radius: 5px;
+    
+}
+input[type="date"],input[type="checkbox"]{
+    background-color: rgba(222, 184, 135, 0.178);
+    padding: 8px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: rgba(0, 0, 0, 0.808);;
+    color: burlywood;
+    padding: 8px;
+    border: solid black  2px;
+    border-radius:5px;
+    margin-top: 15px;
+    width: 150px;
+    
+}
+input[type="submit"]:hover{
+    background-color:black;
+}
+
+.right{
+   
+    padding-left: 150px;
+    padding-top: 40px;
+    
+}
+.left{
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+.last{
+   
+    padding-right: 150px;
+    padding-top: 40px;
+}
+.text1{
+    padding-left: 150px;
+    font-weight: 800;
+    font-size: large;
+   
+}
+.text2{
+    font-weight: 800;
+    padding-left: 220px;
+    font-size: large;
+   
+    
+}
+.text3{
+   padding-left:68px ;
+   font-weight: 800;
+   font-size: large;
+   
+}
+.int{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 45px;
+   
+}
+.dom{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.hill{
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-left: 20px;
+}
+.p1{
+   
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color:burlywood ;
+    background:rgba(0, 0, 0, 0.808);
+}
+.p2{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color:burlywood ;
+    background: rgba(0, 0, 0, 0.808);
+}
+.p3{
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color:burlywood ;
+    background:rgba(0, 0, 0, 0.808);
+   
+}
+.head{
+    text-decoration: underline;
+}
+.td{
+    padding-right: 125px;
+    padding-left: 125px;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.808);
+    font-weight: 800;
+    font-size: larger;
+}
+.h2{
+	background-color: rgba(0, 0, 0, 0.808);
+    color: burlywood;
+    padding: 15px;
+    text-align: center;
+    
+}
+.a{
+    color: burlywood; 
+}
+.b{
+    color: black;
+}
+    
+
+
+

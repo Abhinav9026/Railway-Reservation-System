@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel</title>
+    <style>
+        body{
+            background-color: rgba(222, 184, 135, 0.308);
+        }
+        .container .navbar .icon_title {
+            font-size: 30px;
+        }
+        
+        .container1 {
+            background-color: grey;
+            height: 570px;
+        }
+        
+        .container .navbar .action {
+            float: right;
+            cursor: pointer;
+            font-size: 25px;
+            border: 2px 2px 2px 2px black;
+        }
+        
+        .container1 .background {
+            padding-top: 50px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 800px;
+        }
+        
+        .container2 .row .column {
+            float: left;
+            width: 50%;
+        }
+        /* Clear floats after the columns */
+        
+        .container6 .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .container2 {
+            
+            height: 180px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <section class="container">
+        <div class="navbar" style="background-color: rgba(222, 184, 135, 0);">
+            <span class="icon"> <img src="tourist train.png"  width="50" height="50"></span>
+            <span class="icon_title"><b><tt style="font-weight:900; font-size: 40px;">  YATRA's HOTEL SERVICES</tt></b></span>
+            <div class="action">
+                <span class="your orders">
+                       <button style="background-color: rgba(0, 0, 0, 0.253);
+                       color: black;
+                       padding: 5px;
+                       border: solid rgba(0, 0, 0, 0.733) 3px;
+                       border-radius: 8px;
+                       margin-right: 30px;"><a href="Search Hotels" style="color: black; text-decoration: unset;" >Your Bookings</a></button>&nbsp;&nbsp;&nbsp;
+                       <button style="background-color: rgba(0, 0, 0, 0.253);
+                       color: black;
+                       padding: 5px;
+                       border: solid rgba(0, 0, 0, 0.733) 3px;
+                       border-radius: 8px;
+                       margin-right: 45px;"><a href="Home" style="color: black; text-decoration: unset;">Contact-Us</a></button>
+                 <button style="background-color: rgba(0, 0, 0, 0.253);
+                 color: black;
+                 padding: 5px;
+                 border: solid rgba(0, 0, 0, 0.733) 3px;
+                 border-radius: 8px;
+                 margin-right: 30px;"><a href="yatra.html" style="color: black; text-decoration: unset;">Home</a></button>
+
+                 </span>
+            </div>
+    </section>
+    <section class="container1" style="background-image: url(udaipur.jpg);">
+        <br><br><br><br>
+        <center>
+            <div class="div1">
+                <form class="container3 ">
+                    <table>
+                        <tr >
+                            <td>
+                                
+                                    <label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<tt style="color: white; font-size: 20px;">Destination</tt></label>&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" id="start" placeholder="Enter Hotel Name" style="background-color: white; color: black;
+                                    border: solid rgba(210, 105, 30, 0.438) 3px; border-radius: 6px; padding: 7px; width: 250px; margin-left: 65px; margin-bottom: 20px;">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                                    <label  style="color: white;font-size: 20px;"> <tt>Choose Chek-in date      </tt></label>
+                                    <input type="date" id="start" value="2021-04-22" min="2021-4-01" max="2025-12-31" style="background-color: white; color: black;
+                                    border: solid rgba(210, 105, 30, 0.438) 3px; border-radius: 6px; padding: 7px; width: 250px; margin-left: 20px;margin-bottom: 20px;">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                              
+                                    <label style="color: white;font-size: 20px;"><tt> Choose check-out date </tt></label>
+                                    <input type="date" id="start" value="2021-04-22" min="2021-4-01" max="2025-12-31"style="background-color: white; color: black;
+                                    border: solid rgba(210, 105, 30, 0.438) 3px; border-radius: 6px; padding: 7px; width: 250px;margin-bottom: 20px;">
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                
+                                    <label style="color: white;font-size: 20px; padding-left: 50px;"><tt> Room(s)</tt></label>
+                                    <input type="number" id="start" value="0" min="1" max="6" style="background-color: white; color: black;
+                                    border: solid rgba(210, 105, 30, 0.438) 3px; border-radius: 6px; padding: 7px; width: 250px; margin-left: 110px;margin-bottom: 20px; ">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label style="color: white;font-size: 20px; padding-left: 35px;"><tt> Children</tt></label>
+                                    <input type="number" id="start" value="0" min="1" max="8" style="background-color: white; color: black;
+                                    border: solid rgba(210, 105, 30, 0.438) 3px; border-radius: 6px; padding: 7px; width: 250px; margin-left: 110px;margin-bottom: 20px;">
+                            </td>
+                        </tr>
+                                <tr>
+                                    <td>    
+                                    <label style="color: white;font-size: 20px;padding-left: 35px;"><tt> Adult(s)</tt></label>
+                                    <input type="number" id="start" value="0" min="1" max="8" style="background-color: white; color: black;
+                                    border: solid rgba(210, 105, 30, 0.438) 3px; border-radius: 6px; padding: 7px; width: 250px;margin-left: 110px;margin-bottom: 20px;">
+                                
+                            </td>
+                        </tr>
+                    </table>
+                    
+                    
+                    
+                    
+                    <button style="background-color: white;
+                    color: black;
+                    padding: 5px;
+                    border: solid rgba(210, 105, 30, 0.438) 3px; border-radius: 6px; padding:7px;
+                    margin-right: 30px;"><a style="color: black; text-decoration: unset;" href="Find_hotel"><b>Find hotel</b></a></button>
+                </form>
+            </div>
+        </center><br><br><br>
+        <br><br><br><br><br><br><br>
+        <div class="video">
+            <marquee behaviour="slide">
+            <img  src="h1.jpg" height="200">
+            <img  src="h2.jpg" height="200">
+            <img  src="h3.jfif" height="200">
+            <img  src="h4.jfif" height="200">
+            <img  src="h5.jpg" height="200">
+            <img  src="h6.jfif" height="200">
+            <img  src="h7.jfif" height="200">
+            <img  src="h8.jpg" height="200">
+            <img  src="h10.jpg" height="200">
+            <img  src="h11.jpg" height="200">
+            <img  src="h12.jpg" height="200">
+            
+            </marquee>
+            </div>
+    </section>
+    <br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br>
+        
+
+       <div > <h1 style=" background-color: rgba(0, 0, 0, 0.808);
+        padding: 20px;
+         color: burlywood; text-align: center;">Useful Links</h1> </div>
+    
+    <section class="container2" style="background-color: rgba(0, 0, 0, 0.158);">
+        <center>
+            <div class="row"><br>
+                <div class="column">
+                    <tt style="font-weight: 900;font-size: 20px; text-decoration: underline;"><b>Popular Cities</b></tt>
+                    <br><br>
+                    <a style="text-decoration: unset; color: black;" href="New Delhi">New Delhi</a><br>
+                    <a style="text-decoration: unset; color: black;" href="Chennai">Chennai</a><br>
+                    <a style="text-decoration: unset; color: black;"href="Banglore">Banglore</a><br>
+                    <a style="text-decoration: unset; color: black;"href="Agra">Agra</a><br>
+                    <a style="text-decoration: unset; color: black;" href="Triupati">Triupati</a><br>
+                    <a style="text-decoration: unset; color: black;"href="Katra">Katra</a>
+                </div>
+                <div class="column"><tt  style="font-weight: 900;font-size: 20px; text-decoration: underline;"><b>Services</b></tt>
+                    <br><br>
+                    <a style="text-decoration: unset; color: black;"href="ecat.html">E-caternig</a><br>
+                    <a style="text-decoration: unset; color: black;"href="ctrain.html">Charter Train</a><br>
+                    <a style="text-decoration: unset; color: black;" href="e-ticketing">E-Ticketing</a><br>
+                    <a style="text-decoration: unset; color: black;"href="Hotel-registration">Hotel Booking</a>
+                </div>
+            </div>
+        </center>
+    </section><br><br>
+    <section class="footer" style="background-color: rgba(222, 184, 135, 0);" >
+        <div class="container4">
+            <center>
+                <a style="color: black;" href="charactertrain.html"><b>Charter train </a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a style="color: black;"href="/tnc"><b>Tems & Conditions</b></a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a style="color: black;"href="/faq"><b>F&Q</b></a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a style="color: black;"href="/contact"><b>Contact us</b></a>
+            </center>
+        </div>
+    </section>
+    <br>
+</body>
+
+</html>

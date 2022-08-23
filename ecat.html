@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-caterning</title>
+    <style>
+        body {
+            margin: 0px 10px 50px 10px;
+            background-color:rgba(222, 184, 135, 0.308);
+        }
+        
+        .count {
+            background-color: white;
+        }
+        
+        .count .navbar {
+            color: black;
+            background-color: rgba(222, 184, 135, 0.308);
+        }
+        
+        .count .navbar .icon {
+            display: inline-block;
+            padding-top: 10px;
+            padding-left: 2px;
+        }
+        
+        .count .navbar .center_icon {
+            text-align: center;
+            background-color: white;
+            font-size: 50px;
+           
+        }
+        
+        .count .navbar .action {
+            float: right;
+            cursor: pointer;
+            font-size: 25px;
+            border: 2px 2px 2px 2px black;
+            
+        }
+        
+        .container {
+            padding-top: 50px;
+            display: block;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 600px;
+        }
+        
+        .container .caption_1 {
+            text-align: center;
+            font-size: 50px;
+            font-weight: 700;
+            color: white;
+        }
+        
+        .container .pnrdiv {
+            color: white;
+            padding-top: 100px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        
+        .container .banner {
+            font-size: 35px;
+            bottom: 20px;
+            color: white;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .container1 {
+            background-color: rgba(0, 0, 0, 0.158);
+        }
+        
+        .container1 .title {
+            font-size: 60px;
+            font-weight: 400;
+            color: black;
+            text-align: center;
+        }
+        
+        .container1 .steps .table,
+        th,
+        tr {
+            border: solid;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.116);
+            cursor: pointer;
+            border-radius: 6px;
+           padding: 8px;
+        }
+        
+        .partners .container2 {
+            background-color: rgba(0, 0, 0, 0.158);
+        }
+        
+        .partners .container2 .partner_title {
+            font-size: 40px;
+            color: black;
+            text-align: center;
+        }
+        
+        .bottom .container3 {
+            background-color: rgba(0, 0, 0, 0.158);
+        }
+        
+        .bottom .container3 .bottom_title {
+            font-size: 35px;
+            color: black;
+            text-align: center;
+        }
+        
+        .footer .container4 {
+            background-color: rgba(0, 0, 0, 0.158);
+        }
+        input[type="number"]{
+            width: 300px;
+            height: 35px;
+            background-color: rgba(0, 0, 0, 0.253);
+        }
+        ::placeholder{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <section class="count">
+        <div class="navbar">
+            <br>
+            <span class="icon"> <img src="cook.png"  width="50" height="50"></span>
+            <span class="center_icon"><tt style="background-color: rgba(222, 184, 135, 0.308); color: black; font-weight: bold;">YATRA EXPRESS</tt></span>
+                
+
+            <div class="action">
+
+                <span class="your orders">
+                  
+               <button id="search"
+                style="background-color: rgba(0, 0, 0, 0.253);
+               color: black;
+               padding: 5px;
+               border: solid rgba(0, 0, 0, 0.733) 3px;
+               border-radius: 8px;
+               margin-right: 30px;"> <tt>Call-1800 1236 4567</tt></button></a>
+               </button> 
+               <button
+               style="background-color: rgba(0, 0, 0, 0.253);
+               color: black;
+               padding: 5px;
+               border: solid rgba(0, 0, 0, 0.733) 3px;
+               border-radius: 8px;
+               margin-right: 30px;"> <a  href="your order" style="color:black; text-decoration: unset;">Your orders</a>
+               </button>
+             <button id="home" 
+             style="background-color: rgba(0, 0, 0, 0.253);
+             color: black;
+             padding: 5px;
+             border: solid rgba(0, 0, 0, 0.733) 3px;
+             border-radius: 8px;
+             margin-right: 30px;"><a href="yatra.html" style="color: black; text-decoration: unset;"><tt>HOME</tt></a></button>
+            
+            </span>
+            </div>
+    </section>
+    <section class="container" style="background-image: url(abhi1.jpeg);">
+        <div class="caption_1" style="color: chocolate;"><tt>Get restaurant food at your seat</tt></div>
+        <br><br>
+        <center>
+            <div class="pnrdiv">
+                <form>
+                    <label style="color:white;"><b> <tt> ENTER 10 DIGIT PNR NUMBER </tt></b></label>&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" placeholder="PNR Number" max="1000000000" min="9999999999" style="size: 200px;">
+                    <br><br> <button style="background-color: rgba(0, 0, 0, 0.253);
+                    color: black;
+                    width: 100px;
+                    padding: 5px;
+                    border: solid rgba(0, 0, 0, 0.733) 3px;
+                    border-radius: 8px;
+                    margin-right: 30px;"><a style="color:white; text-decoration: unset; font-size: 20px;"  href="Submit"> Submit</a> </button>
+                </form>
+            </div>
+        </center>
+        <div class="banner" style="color:whitesmoke; font-size: 30px;"><b><tt>An official website of YATRA Railways to book food in trains.</tt> </div>
+    </section>
+    <section class="container1">
+        <div class="title"><b><tt>How Does it works?</tt></b></div>
+        <div class="steps">
+            <table align="center">
+               <tr> <tt>
+                    <th>Choose from 500+ restaurants
+                        <th> An excellent list of restaurants to choose your favorite meal from.</th>
+                    </th></tt>
+                </tr>
+           
+             <tr> <tt> 
+                    <th>Choose from menu and place orders
+                        <th> Choose your favorite meal, be it pizza, thali, non-veg food or biryani. Get healthy hygienically preapared meal.</th>
+                    </th></tt>
+                </tr>
+               <tr> <tt> 
+                    <th>Get it delivered on your seat / berth
+                        <th> Just be at your seat while hot, mouth watering and super delicious meal for your journey.</th>
+                    </th></tt>
+                </tr>
+            </table>
+        </div>
+        <br>
+        </div>
+    </section>
+
+    <section class="partners">
+        <div class="container2"><br>
+            <tt><h1 class="partner_title">Our most Valued partners</h1></tt>
+            <center>
+                <img src="garg.jpeg" height="150px">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="dominos.jpeg" height="150px">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="railrecipe.jpeg" height="150px">&nbsp;&nbsp;&nbsp;&nbsp;<br><br><br>
+                <img src="yatribhojan.jpeg" height="150px">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="relfood.jpeg" height="150px">
+                <br>
+                <br>
+            </center>
+            <br>
+        </div>
+    </section>
+    <section class="bottom">
+        <div class="container3">
+            <h1 class="bottom_title">
+                <b> <tt>
+                Get good food delivery in trains</tt></b>
+            </h1>
+            <div style="line-height: 1.6;">
+                <div>
+                    <p style="padding-left: 20px; padding-right: 20px; padding-top: 8px; padding-bottom: 8px;">
+                        To provide quality and a wider range of cuisine while traveling,YATRA has introduced its new E-catering app for food delivery in train. Available for download from Google Play and iTunes you can now easily install the app on your android or iOS smartphone
+                        and get palatable yet cheap food delivery in train from a variety of food partners you can choose from.
+                    </p>
+                    <p  style="padding-left: 20px; padding-right: 20px; padding-top: 8px; padding-bottom: 8px;">
+                        With this new online food delivery app passengers can order food on train by simply entering their travel details such as PNR number, Train name, seat/berth number and expect a delicious and quick food delivery on train. This effective system of online
+                        food delivery on train not only guarantees tasty food on your seat but also a revamped railway food menu making your journey a bit more fun. With multiple food aggregators on train stations travelers can now enjoy an extensive
+                        set of meals ranging from north Indian, South Indian, Pizzas to mouthwatering Biryanis, butter chicken and Chinese delicacies etc.
+                    </p>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container4">
+            <br>
+            <p>
+                <center>
+                    <a style="color: chocolate; font-weight: bold; font-size: 15px;"  href="ecat.html"><b><tt> YARTA E-CATERING</tt></a></b> <br>Get restaurant food deleivers at your seat <br> By placing order you accept our
+                    <a style="color: chocolate;font-weight: bold;" href="/tnc"><b><tt></tt>Tems & Conditions</tt></b></a><br> "This site is reversed by reCaptch"<br>
+                    <a style="color:chocolate;font-weight: bold;" href="/faq"><b><tt></tt>F&Q(Frequently & question)</tt></b></a>
+                </center>
+                <br><br>
+    </section>
+</body>
+
+</html>
